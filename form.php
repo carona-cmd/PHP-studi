@@ -5,7 +5,7 @@ var_dump($_POST); // superglobale cree automatiquement par php
 // si tableau n est pas vide 
 if (!empty($_POST)){
     if(empty($_POST["nom"])) ||  (empty($_POST["age"])) {
-echo "ok" ;
+     echo "ok" ;
     } else{
     echo "merci";
 }
